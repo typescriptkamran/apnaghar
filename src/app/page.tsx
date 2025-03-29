@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import HeroSection from "@/components/home/HeroSection";
 import Header from "@/components/layout/Header";
@@ -9,6 +10,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <div className="min-h-screen flex flex-col bg-background">
+      
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
